@@ -1,0 +1,201 @@
+.jumbotron {
+    height: 95vh;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-default {
+    background-color: #317A32;
+    border: none;
+}
+
+.navbar-default a {
+    color: #fff !important;
+}
+
+.navbar-default a:hover {
+    color: #333 !important;
+}
+
+.current {
+    font-weight: bold;
+    color: #fff;
+}
+
+#more {
+    display: none;
+}
+
+.btn-secondary {
+    background-color: #317A32;
+    border: none;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    border-radius: 100px;
+    transition: 0.4s ease;
+}
+
+p.tagline {
+    font-size: 28px;
+    font-weight: lighter !important;
+    letter-spacing: 0.2rem;
+}
+
+#carousel-example-generic {
+    height: 100vh;
+}
+
+a.btn-secondary:hover {
+    color: #333 !important;
+    background: #fff;
+}
+
+img.gambar-tengah {
+    float: right !important;
+}
+
+.tengah-con {
+    float: left !important;
+}
+
+a:active .navbar {
+    color: black;
+    font-weight: bold;
+}
+
+#galeri {
+    margin-top: 100px;
+}
+
+#team {
+    background: #317A32;
+    box-sizing: border-box;
+}
+
+
+
+.bg-petani {
+    background: #fff;
+    margin-left: 20px;
+    height: 50vh;
+    width: 380px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+@media(max-width:500px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .small-img img {
+        width: 200px !important;
+        margin-top: -90px !important;
+    }
+
+    .small-top img {
+        width: 100px !important;
+        margin-top: 10px !important;
+    }
+
+    .foot-right a {
+        margin-top: 0 !important;
+    }
+
+    #galeri section {
+        margin-bottom: 50rem;
+    }
+
+    #team section {
+        margin-top: 200px;
+        background-position: 0 0;
+        height: 200vh;
+    }
+
+    h1.first {
+        margin-top: 40px;
+    }
+
+    img.featurette-image {
+        width: 80%;
+    }
+
+    .col-md-7 {
+        margin-left: 30px;
+    }
+
+    img.galeri {
+        width: 100%;
+        background-size: cover;
+        margin: 20px 40px !important;
+    }
+
+    h1.txt-tim {
+        color: #fff !important;
+        z-index: 9 !important;
+    }
+
+
+    img.img-hidden {
+        margin-top: 10px !important;
+    }
+
+    /* .img-hidden {
+        display: none !important;
+    } */
+
+    #team {
+        background: #317A32;
+        box-sizing: border-box;
+        margin: auto;
+
+    }
+
+    .bg-petani {
+        margin: 20px 40px;
+    }
+
+    /* .hidden {
+        background: none;
+    } */
+
+
+
+    /* div.featurette {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        grid-template-areas:
+            'col-md-5'
+            'col-md-7'
+            'gambar-tengah'
+            'tengah-con'
+            'col-md-5'
+            'col-md-7' !important;
+    }
+
+    div.col-md-5 {
+        grid-area: 'col-md-5' !important;
+    }
+
+    div.col-md-7 {
+        grid-area: 'col-md-7' !important;
+    }
+
+    div.tengah-con {
+        grid-area: 'tengah-con' !important;
+    }
+
+    div.gambar-tengah {
+        grid-area: 'gambar-tengah' !important;
+    } */
+}
+
+/* About */

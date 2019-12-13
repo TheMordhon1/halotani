@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/carousel/">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Raleway&display=swap" rel="stylesheet">
+    <!-- <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script> -->
+
+    <title>HaloTani</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <!-- NAVBAR
+    ================================================== -->
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" style="color: #fff;">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#showcase"> <img src="img/logo.png" alt="" style="
+                    width: 100px;
+                    height: 30px;
+                    margin-top:-5px;
+                    margin-left: 20px;"> </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#showcase">Halaman Awal</a></li>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#carousel-example-generic">Testimoni</a></li>
+                    <li><a href="#galeri">Galeri</a></li>
+                    <li><a href="#team">Tim</a></li>
+                    <li><a href="#form">Formulir</a></li>
+                    <a href="../Website/dist/login.html"><button type="button" class="btn btn-default navbar-btn"
+                            style="margin-left: 16px;">Log
+                            In</button></a>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+
+    <div id="showcase" class="jumbotron text-center" style="background: url('img/showcase/show1.png') no-repeat;
+    background-size: cover; height:100vh; width:100%;">
+        <div class="container jumbo-content" style="margin-top: 30vh;">
+            <h1 class="title" style="color: #fff; font-family:'raleway';  ">HaloTani</h1>
+            <p class="tagline" style="color: #fff;">Bersama kita majukan pertanian Indonesia</p>
+            <p><a class="btn btn-secondary btn-lg" href="../Website/dist/form.html" role="button">Daftar</a></p>
+        </div>
+    </div>
+
+    <!-- Tentang Kami -->
+    <br>
+    <section id="about">
+        <div class="row">
+            <div class="col-md-6 small-img top"">
+                <img src=" img/showcase/decbawang.png" " alt="" style=" position: absolute; width:200px;">
+            </div>
+            <div class="col-md-6 small-img top">
+                <img src="img/showcase/decsayur.png" alt="" style="position: absolute; width:350px; right: 0; ">
+            </div>
+
+        </div>
+        <h1 class="text-center title first" style="font-family: 'PT Serif';">Tentang <span
+                style="font-family: 'raleway';">HaloTani</span></h1>
+        <br><br><br><br>
+
+        <div class="container">
+
+
+
+            <div class="row featurette">
+                <div class=" col-md-5 fitur-left">
+                    <img class=" featurette-image img-responsive center-block" src="img/about/halotani.png"
+                        alt="Generic placeholder image">
+                </div>
+                <div class="col-md-7 fitur-right">
+                    <h2 class="featurette-heading" style="font-size: 30px;">Aplikasi HaloTani</h2>
+                    <p class="lead"> <strong>HaloTani</strong> adalah platform yang dapat memudahkan petani untuk
+                        mendapatkan investor dan konsultasi dengan pakar petanian<span id="dots">...</span>
+
+                        <span id="more"> membantu petani dan investor untuk saling terhubung dengan mengamati
+                            perkembangan pertanian.
+                            Fitur forum & konsultasi yang dapat membantu petani memperluas jaringan antar sesama petani
+                            dari berbagai daerah dan dapat berkonsultasi dengan para pakar pertanian untuk membantu
+                            menghadapi kendala apapun terkait pertanian dan informasi penjualan bibit serta pupuk sesuai
+                            arahan pakar.
+                        </span>
+                    </p>
+                    <button class="btn btn-default " id="read" href="" role="button" onclick="read1()">Baca
+                        Selengkapnya
+                        &raquo;</button>
+                </div>
+            </div>
+
+            <br>
+            <div class="row featurette ">
+                <div class=" col-md-5 navbar-right fitur-right">
+                    <img class=" featurette-image img-responsive center-block" src="img/about/fitur.png"
+                        alt="Generic placeholder image">
+                </div>
+                <div class="col-md-7 navbar-left fitur-left">
+                    <h2 class="featurette-heading" style="font-size: 30px;">Fitur Kami</h2>
+                    <p class="lead"><strong>Fitur</strong> fitur Investor yang dapat menghubungkan petani dengan
+                        investor untuk mendapatkan permodalan, fitur timeline yang dapat <span id="dots2">...</span>
+
+                        <span id="more2"> membantu petani dan investor untuk saling terhubung dengan mengamati
+                            perkembangan pertanian.
+                            Fitur forum & konsultasi yang dapat membantu petani memperluas jaringan antar sesama petani
+                            dari berbagai daerah dan dapat berkonsultasi dengan para pakar pertanian untuk membantu
+                            menghadapi kendala apapun terkait pertanian dan informasi penjualan bibit serta pupuk sesuai
+                            arahan pakar.
+                        </span>
+                    </p>
+                    <button class="btn btn-default " id="read2" href="" role="button" onclick="read2()">Baca
+                        Selengkapnya
+                        &raquo;</button>
+                </div>
+            </div>
+            <br>
+            <div class="row featurette">
+                <div class=" col-md-5 fitur-left">
+                    <img class=" featurette-image img-responsive center-block" src="img/about/cara.png"
+                        alt="Generic placeholder image">
+                </div>
+                <div class="col-md-7 fitur-right">
+                    <h2 class="featurette-heading" style="font-size: 30px;">Cara Kami</h2>
+                    <p class="lead" style="margin-top: 20px;">Donec ullamcorper nulla non metus auctor fringilla.
+                        Vestibulum
+                        id ligula porta felis
+                        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus,
+                        tellus ac cursus commodo.
+                        <span id="dots3">...</span>
+
+                        <span id="more3"> membantu petani dan investor untuk saling terhubung dengan mengamati
+                            perkembangan pertanian.
+                            Fitur forum & konsultasi yang dapat membantu petani memperluas jaringan antar sesama petani
+                            dari berbagai daerah dan dapat berkonsultasi dengan para pakar pertanian untuk membantu
+                            menghadapi kendala apapun terkait pertanian dan informasi penjualan bibit serta pupuk sesuai
+                            arahan pakar.
+                        </span>
+                    </p>
+
+                    <button class="btn btn-default " id="read3" href="" role="button" onclick="read3()">Baca
+                        Selengkapnya
+                        &raquo;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <hr><br>
+
+
+
+
+
+
+    <!-- Testimoni -->
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"
+        style="margin-top: 80px; background:#332B24; height:100vh;">
+
+        <h1 class=" text-center title" style=" font-family: 'PT Serif' ; color:#fff; padding-top:40px;">
+            Testimoni Petani
+        </h1>
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators" style="margin-bottom: 20px;">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="jumbotron text-center"
+                    style="background: url('img/showcase/testibg.png') no-repeat; background-size: cover;">
+                    <div class=" container" style="margin-top: 10px;">
+                        <div class="title">
+                            <img src="img/avatar/man.png" alt="" class="img-circle">
+                            <h1 style="font-size: 30px;
+                        font-family: 'PT Serif';
+                        font-weight: 500;
+                        color:#fff;"> Hari Maryono</h1>
+                            <p style="font-size: 30px;
+                        font-family: 'raleway';
+                        font-weight: lighter;
+                        color:#fff;">“ Aplikasinya memudahkan kami untuk mengembangkan pertanian kami menjadi lebih
+                                baik “</p><br>
+                            <p style="font-size: 30px;
+                        font-family: 'PT Serif';
+                        font-weight: 500;
+                        color:#fff;">20 November 2019</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <div class="jumbotron text-center"
+                    style="background:url('img/showcase/testibg.png') no-repeat; background-size: cover;">
+                    <div class="container" style="margin-top: 10px;">
+                        <img src="img/avatar/wom1.png" alt="" class="img-circle">
+                        <h1 style="font-size: 30px;
+                            font-family: 'PT Serif';
+                            font-weight: 500;
+                            color:#fff;"> Sarah Kusuma</h1>
+                        <p style="font-size: 30px;
+                            font-family: 'raleway';
+                            font-weight: lighter;
+                            color:#fff;">“ Fitur yang tersedia sangat mudah digunakan oleh kami. “</<button><br>
+                            <p style="font-size: 30px;
+                            font-family: 'PT Serif';
+                            font-weight: 500;
+                            color:#fff;">23 November 2019</p>
+                    </div>
+                </div>
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="jumbotron text-center"
+                    style="background:url('img/showcase/testibg.png') no-repeat; background-size: cover;">
+                    <div class="container" style="margin-top: 10px;">
+                        <img src="img/avatar/wom2.png" alt="" class="img-circle">
+                        <h1 style="font-size: 30px;
+                            font-family: 'PT Serif';
+                            font-weight: 500;
+                            color:#fff;"> Tarmi Sri Rahayu</h1>
+                        <p style="font-size: 30px;
+                            font-family: 'raleway';
+                            font-weight: lighter;
+                            color:#fff;">“ Terimakasih kepada tim HaloTani, dengan aplikasi ini kami menjadi optimis
+                            untuk bertani. “</p><br>
+                        <p style="font-size: 30px;
+                            font-family: 'PT Serif';
+                            font-weight: 500;
+                            color:#fff;">20 November 2019</p>
+                    </div>
+                </div>
+                <div class="carousel-caption">
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"
+            style="height: 0vh; margin-top: 60vh;">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"
+                style="margin-left: -40px; font-size: 6rem; "></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"
+            style="height: 0vh; margin-top: 60vh;">
+            <span class=" glyphicon glyphicon-chevron-right" aria-hidden="true"
+                style="margin-right: -40px; font-size: 6rem;"></span>
+            <span class="sr-only">Next</span>
+        </a> -->
+    </div>
+
+
+    <!-- Galeri -->
+
+
+    <section class="galeri" id="galeri" style="background: url('img/showcase/bggaleri.png');background-size:cover;">
+        <div class="container ">
+            <div class="row">
+                <h1 class="text-center title" style="font-family: 'PT Serif';">Galeri <span
+                        style="font-family: 'raleway';">HaloTani</span></h1>
+                <br><br><br><br>
+            </div>
+
+            <div class="row galeri">
+                <div class="col-xs-6 col-lg-3 col-md-4 col-sm-12 galtop-left">
+                    <a href="" class="thumbnail">
+                        <img class="text-center" src="img/galeri/gal1.png">
+                    </a>
+                </div>
+
+                <div class="col-xs-6 col-lg-3 col-md-4 col-sm-12 galtop-left">
+                    <a href="" class="thumbnail">
+                        <img class="text-center" src="img/galeri/gal2.png">
+                    </a>
+                </div>
+
+                <div class="col-xs-6 col-lg-3 col-md-4 col-sm-12 galtop-right">
+                    <a href="" class="thumbnail">
+                        <img class="text-center" src="img/galeri/gal3.png">
+                    </a>
+                </div>
+
+                <div class="col-xs-6 col-lg-3 col-md-4 col-sm-12 galtop-right">
+                    <a href="" class="thumbnail">
+                        <img class="text-center" src="img/galeri/gal4.png">
+                    </a>
+                </div>
+
+                <div class="col-xs-6 col-lg-3 col-md-4 col-sm-12 galbot-left">
+                    <a href="" class="thumbnail">
+                        <img class="text-center" src="img/galeri/gal5.png">
+                    </a>
+                </div>
+
+                <div class="col-xs-6 col-lg-3 col-md-4 col-sm-12  galbot-left">
+                    <a href="" class="thumbnail">
+                        <img class="text-center" src="img/galeri/gal6.png">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-lg-3 col-md-4 col-sm-12 galbot-right">
+                    <a href="" class="thumbnail">
+                        <img class="text-center" src="img/galeri/gal7.png">
+                    </a>
+                </div>
+                <div class="col-xs-6 col-lg-3 col-md-4 col-sm-12 galbot-right ">
+                    <a href="" class="thumbnail">
+                        <img class="text-center" src="img/galeri/gal8.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <br><br>
+
+    <!-- Tim -->
+
+    <section id="team">
+        <div class="container-fluid marketing">
+            <h1 class=" text-center title txt-tim" style=" font-family: 'PT Serif' ; color:#fff; padding-top:20px;">
+                Tim <span style="font-family: 'raleway';">HaloTani</span>
+            </h1>
+            <div class="col-xs-12 col-md-12 col-lg-12 text-center small-img ">
+                <img class="img-hidden" src="img/avatar/Vector.png" alt="">
+            </div>
+            <br><br><br><br>
+
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-lg-4 text-center ">
+                    <div class="content bg-petani ">
+                        <img src=" img/avatar/man1.png" alt="" class="img-circle">
+                        <h2>CEO</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                            ultricies
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, nihil?....</p>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12 col-md-4 col-lg-4 text-center">
+                    <div class="content bg-petani">
+                        <img src=" img/avatar/women1.png" alt="" class="img-circle">
+                        <h2>CFO</h2>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                            ultricies
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, corporis.....</p>
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-xs-12 col-md-4 col-lg-4 text-center">
+                    <div class="content bg-petani">
+                        <img src=" img/avatar/women2.png" alt="" class="img-circle">
+                        <h3>CMO</h3>
+                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
+                            ultricies
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, neque!....</p>
+                        </p>
+                    </div>
+                </div>
+            </div><br><br><br>
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-12 text-center" style="background: #79AA3A; height:15.5vh;">
+                    <h1 class=" text-center " style=" font-family: 'PT Serif' ; color:#fff; font-size:2.5rem;">
+                        Kami Perlu Bantuan Anda !
+                    </h1>
+                    <span class=" glyphicon glyphicon-arrow-down" aria-hidden="true"
+                        style="font-size: 20px; color:#fff;"></span>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Forms -->
+    <section id="form">
+        <div class="container col-xs-12 col-md-6 col-lg-12 ">
+
+            <h1 class="text-center " style="font-family: 'PT Serif';">Formulir</h1>
+
+            <form action="" class="container">
+
+                <div class="form-group">
+                    <label for="name">Nama Lengkap</label>
+                    <input type="text" placeholder="Masukkan nama" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Masukkan email" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Alamat</label>
+                    <textarea placeholder="Masukkan alamat" class="form-control"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select name="" id="" class="form-control">
+                        <option value="laki">Laki-laki</option>
+                        <option value="perempuan">Perempuan</option>
+                    </select>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="upload">Unduh File</label>
+                            <p>Masukan file yang berisi biografi atau portfolio anda</p>
+                            <input type="file">
+                            <p class="help-block">Hanya file png dan jpg </p>
+                        </div>
+
+                        <div class="checkbox">
+                            <label for="">
+                                <input type="checkbox">
+                                <p class="help-block"> Silahkan centang jika sudah mengisi formulir</p>
+                        </div>
+
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </div>
+                    <div class="col-md-6 small-img">
+                        <img src="img/showcase/decsayur.png" class="img-responsive" alt=""
+                            style="position: absolute; width:250px; right: 0; ">
+                    </div>
+
+            </form>
+
+        </div>
+        <br><br>
+        </div>
+    </section>
+
+    <hr>
+
+
+    <footer class="footer col-xs-12 " style="background: #eaeaea; height: 8rem; width: 100%;">
+        <div class="container-fluid text-center">
+            <div class="col-lg-4 col-md-4 col-xs-4 foot-left">
+                <p style="margin-top:40px; font-size: 16px; color: #333;">&copy; Copyright 2019</a></p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-4 foot-mid">
+                <img src="img/avatar/icon.png" alt="" class="img-circle"
+                    style="background: #317A32; height:50px; width:50px; margin-top:20px;">
+            </div>
+            <div class="col-lg-4 col-md-4 col-xs-4 foot-right" style="margin-top: 30px; ">
+                <a href="" style="margin-left: 20px;">Term |</a>
+                <a href="" style="margin-left: 20px;">Policy |</a>
+                <a href="" style="margin-left: 20px;">About |</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
