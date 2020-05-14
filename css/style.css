@@ -20,9 +20,13 @@
     color: #333 !important;
 }
 
-.current {
+.navbar-right {
+    border-bottom: none;
+}
+
+li.active a {
     font-weight: bold;
-    color: #fff;
+    color: #333 !important;
 }
 
 #more {
@@ -30,7 +34,7 @@
 }
 
 .btn-secondary {
-    background-color: #317A32;
+    background-color: rgb(49, 122, 50);
     border: none;
     color: #fff !important;
     text-transform: uppercase;
@@ -38,8 +42,12 @@
     font-size: 1.2rem;
     font-weight: 700;
     letter-spacing: 0.5rem;
-    border-radius: 100px;
+    border-radius: 40px;
     transition: 0.4s ease;
+    box-shadow:
+        -2px -2px 12px rgba(41, 104, 42, .5),
+        inset 2px 2px 4px rgba(41, 104, 42, .1),
+        2px 2px 8px rgba(0, 0, 0, .15);
 }
 
 p.tagline {
@@ -53,8 +61,10 @@ p.tagline {
 }
 
 a.btn-secondary:hover {
-    color: #333 !important;
-    background: #fff;
+    box-shadow: inset -2px -2px 8px rgba(49, 122, 50, 1),
+        inset -2px -2px 12px rgba(36, 95, 37, 0.5),
+        inset 2px 2px 4px rgba(34, 87, 35, 0.1),
+        inset 2px 2px 8px rgba(0, 0, 0, .15);
 }
 
 img.gambar-tengah {
@@ -84,10 +94,14 @@ a:active .navbar {
 .bg-petani {
     background: #fff;
     margin-left: 20px;
-    height: 50vh;
+    height: 30em;
     width: 380px;
     border-radius: 20px;
     padding: 20px;
+}
+
+.dropdown-item {
+    display: none;
 }
 
 @media(max-width:500px) {
@@ -141,6 +155,10 @@ a:active .navbar {
     h1.txt-tim {
         color: #fff !important;
         z-index: 9 !important;
+    }
+
+    .bg-petani {
+        height: 400px;
     }
 
 
