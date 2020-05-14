@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/carousel/">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif|Raleway&display=swap" rel="stylesheet">
-    <!-- <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script> -->
 
-    <title>HaloTani</title>
+
+    <title>HaloTani | Website</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,12 +17,10 @@
 
 </head>
 
-<body>
-
+<body data-spy="scroll" data-target="#navbar-example" data-offset="130">
 
     <!-- NAVBAR
     ================================================== -->
-
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -39,8 +37,8 @@
                     margin-top:-5px;
                     margin-left: 20px;"> </a>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
+            <div id="navbar-example" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right nav-tabs" role="tablist">
                     <li><a href="#showcase">Halaman Awal</a></li>
                     <li><a href="#about">Tentang Kami</a></li>
                     <li><a href="#carousel-example-generic">Testimoni</a></li>
@@ -52,7 +50,6 @@
                             In</button></a>
                 </ul>
             </div>
-            <!--/.nav-collapse -->
         </div>
     </nav>
 
@@ -63,7 +60,7 @@
         <div class="container jumbo-content" style="margin-top: 30vh;">
             <h1 class="title" style="color: #fff; font-family:'raleway';  ">HaloTani</h1>
             <p class="tagline" style="color: #fff;">Bersama kita majukan pertanian Indonesia</p>
-            <p><a class="btn btn-secondary btn-lg" href="../Website/dist/form.html" role="button">Daftar</a></p>
+            <p><a class="btn btn-secondary btn-lg" href="../Website/dist/regis.html" role="button">Daftar</a></p>
         </div>
     </div>
 
@@ -84,9 +81,6 @@
         <br><br><br><br>
 
         <div class="container">
-
-
-
             <div class="row featurette">
                 <div class=" col-md-5 fitur-left">
                     <img class=" featurette-image img-responsive center-block" src="img/about/halotani.png"
@@ -364,10 +358,11 @@
                 <div class="col-xs-12 col-md-4 col-lg-4 text-center ">
                     <div class="content bg-petani ">
                         <img src=" img/avatar/man1.png" alt="" class="img-circle">
-                        <h2>CEO</h2>
-                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
-                            ultricies
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, nihil?....</p>
+                        <h2>Muhamad Romdon</h2>
+                        <h2 style="margin-top: 3px; color: gray; opacity: .8; font-size: 2.3rem; font-weight: 400;">CEO
+                        </h2>
+                        <p>Mahasiswa Universitas Trilogi prodi sistem informasi semester 5. Sebagai seorang freelancer
+                            front-end developer di berbagai perusahaan teknologi.</p>
                         </p>
                     </div>
                 </div>
@@ -376,7 +371,9 @@
                 <div class="col-xs-12 col-md-4 col-lg-4 text-center">
                     <div class="content bg-petani">
                         <img src=" img/avatar/women1.png" alt="" class="img-circle">
-                        <h2>CFO</h2>
+                        <h2>Nindya Mega Violina</h2>
+                        <h2 style="margin-top: 3px; color: gray; opacity: .8; font-size: 2.3rem; font-weight: 400;">CFO
+                        </h2>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
                             ultricies
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, corporis.....</p>
@@ -388,7 +385,9 @@
                 <div class="col-xs-12 col-md-4 col-lg-4 text-center">
                     <div class="content bg-petani">
                         <img src=" img/avatar/women2.png" alt="" class="img-circle">
-                        <h3>CMO</h3>
+                        <h2>Tanti Nur Sari</h2>
+                        <h2 style="margin-top: 3px; color: gray; opacity: .8; font-size: 2.3rem; font-weight: 400;">CMO
+                        </h2>
                         <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh
                             ultricies
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, neque!....</p>
@@ -397,9 +396,12 @@
                 </div>
             </div><br><br><br>
             <div class="row">
-                <div class="col-xs-12 col-md-12 col-lg-12 text-center" style="background: #79AA3A; height:15.5vh;">
+                <div class="col-xs-12 col-md-12 col-lg-12 text-center" style="background: #79AA3A; height:20vh;">
                     <h1 class=" text-center " style=" font-family: 'PT Serif' ; color:#fff; font-size:2.5rem;">
-                        Kami Perlu Bantuan Anda !
+                        Anda Bagian Dari Pada Pakar Pertanian ?
+                    </h1>
+                    <h1 class=" text-center " style=" font-family: 'PT Serif' ; color:#fff; font-size:2.5rem;">
+                        Jadilah mitra kami !
                     </h1>
                     <span class=" glyphicon glyphicon-arrow-down" aria-hidden="true"
                         style="font-size: 20px; color:#fff;"></span>
@@ -416,7 +418,8 @@
     <section id="form">
         <div class="container col-xs-12 col-md-6 col-lg-12 ">
 
-            <h1 class="text-center " style="font-family: 'PT Serif';">Formulir</h1>
+            <h1 class="text-center " style="font-family: 'PT Serif';">Formulir Pakar</h1>
+
 
             <form action="" class="container">
 
@@ -443,11 +446,16 @@
                     </select>
                 </div>
 
+                <div class="form-group">
+                    <label for="name">Pendidikan Terakhir</label>
+                    <input type="text" placeholder="Masukkan dengan lengkap" class="form-control">
+                </div>
+
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="upload">Unduh File</label>
-                            <p>Masukan file yang berisi biografi atau portfolio anda</p>
+                            <p>Masukan file yang berisi biografi,portfolio dan foto anda</p>
                             <input type="file">
                             <p class="help-block">Hanya file png dan jpg </p>
                         </div>
